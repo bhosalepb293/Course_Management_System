@@ -1,0 +1,61 @@
+    {
+        "items":[
+            {
+                "sys":{"id":"1"},
+                "fields":{
+                    "title":"Python Programming MasterCourse",
+                    "price":123.99, 
+                    "image":{"fields":{"file":{"url":"images/python.jpg"}}}
+                }
+            },
+            {
+                "sys":{"id":"2"},
+                "fields":{
+                    "title":"Java Programming MasterCourse",
+                    "price":123.99,
+                    "image":{"fields":{"file":{"url":"images/java.png"}}}
+                }
+            },
+            {
+                "sys":{"id":"3"},
+                "fields":{
+                    "title":"C++ Programming MasterCourse",
+                    "price":123.99,
+                    "image":{"fields":{"file":{"url":"images/CPP.jpg"}}}
+                }
+            },
+            {
+                "sys":{"id":"4"},
+                "fields":{
+                    "title":"Data Mining MasterCourse",
+                    "price":123.99,
+                    "image":{"fields":{"file":{"url":"images/DATAMINING.jpg"}}}
+                }
+            },
+            {
+                "sys":{"id":"5"},
+                "fields":{
+                    "title":"MYSQL MasterCourse",
+                    "price":123.99,
+                    "image":{"fields":{"file":{"url":"images/MYSQL.jpg"}}}
+                }
+            },
+            {
+                "sys":{"id":"6"},
+                "fields":{
+                    "title":"REACT MasterCourse",
+                    "price":123.99,
+                    "image":{"fields":{"file":{"url":"images/REACT.jpg"}}}
+                }
+            },
+            {
+                "sys":{"id":"7"},
+                "fields":{
+                    "title":"Python Programming MasterCourse",
+                    "price":123.99,
+                    "image":{"fields":{"file":{"url":"images/python.jpg"}}}
+                }
+            }
+            
+        ]
+    }

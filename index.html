@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="burger">
+            <div class="layer1"></div>
+            <div class="layer2"></div>
+            <div class="layer3"></div>
+        </div>
+
+        <div class="logo">
+            <span class="logo-text"><i class="fa fa-book" style="margin-right: 0.1em"> Pallavi Classes &<span style="color: #f09d51; font-size: 1.1em;">Training Institute</span></i></span>
+        </div>
+        <div class="menubar">
+            <ul class="list">
+                <li class="list-item"><a href="#">HOME</a></li>
+                <li class="list-item"><a href="#">COURSES</a></li>
+                <li class="list-item"><a href="#">PRICES</a></li>
+                <li class="list-item"><a href="#">ABOUT US</a></li>
+            </ul>
+        </div>
+
+        <div class="cart">
+            <!-- Moved the id="cart-icon" to the icon itself -->
+              
+
+             <i class="fa fa-shopping-cart fa-1x" id="cart-icon"></i>
+            <div class="number-of-items"><span class="noi">0</span></div>   
+        </div>
+    </nav>
+
+    <section class="section1">
+        <div class="banner">
+            <h1>FIND YOUR FAVORITE COURSE HERE!</h1>
+            <a href="#products">SHOP NOW</a>
+        </div>
+    </section>
+    <section class="section 2" id="products">
+        <div class="title">
+            <h1>COURSES WE OFFER</h1>
+        </div>
+        <div class="product">
+
+        </div>
+    </section>
+ 
+    <div class="cart-sidebar">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fa fa-times"></i>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+            </div></div>
+            <div class="total-sum">
+                <h1>Your Total: $ <span class="total-amount">0</span></h1>
+            </div>
+            <div class="clear-cart">
+                <button class="btn clear-cart btn">Clear Cart</button>
+            </div>
+            <div class="clear-cart">
+                <button class="btn clear-cart btn">Proceed</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-sidebar">
+        <div class="close-menu">
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="menu-menubar">
+            <ul class="menu-list">
+                <li class="menu-list-items"><a href="#">HOME</a></li>
+                <li class="menu-list-items"><a href="#">CATEGORIES</a></li>
+                <li class="menu-list-items"><a href="#">PRICING</a></li>
+                <li class="menu-list-items"><a href="#">ABOUT US</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script  src="app.js"></script>
+    <script type="JavaScript" src="product.json"></script>
+
+   
+
+</body>
+</html>
